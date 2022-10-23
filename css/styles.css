@@ -65,8 +65,8 @@ ul {
 .main-button {
   font-family: inherit;
   font-weight: 700;
-  font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.06em;
   color: var(--pure-white-color);
   background-color: var(--accent-blue-color);
 }
@@ -78,8 +78,7 @@ ul {
   cursor: pointer;
 }
 
-.nav-list,
-.contacts {
+.nav-list, .contacts {
   color: var(--primary-title-color);
   font-weight: 500;
   line-height: 1.14;
@@ -92,6 +91,7 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 1, 36;
+  text-align: center;
   text-transform: uppercase;
 }
 
