@@ -10,10 +10,9 @@
 body {
   background-color: var(--pure-white-color);
   color: var(--primary-text-color);
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
-  line-height: 1.71;
 }
 
 a:hover,
@@ -33,7 +32,7 @@ ul {
 
 .logo {
   color: var(--primary-title-color);
-  font-family: Raleway, bold;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -41,7 +40,7 @@ ul {
 
 .logo-half {
   color: var(--accent-blue-color);
-  font-family: Raleway, bold;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -58,13 +57,13 @@ ul {
 
 [type="button"]:hover,
 [type="button"]:focus {
-  color: var(--primary-white-color);
+  color: var(--pure-white-color);
   background-color: var(--accent-blue-color);
   cursor: pointer;
 }
 
 .main-button {
-  font-family: "Roboto";
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -87,44 +86,35 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.link-mail {
-  color: var(--accent-blue-color);
-}
-
 .hero {
   background: var(--main-bckgd-color);
   color: var(--pure-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1, 36;
-  text-align: center;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
-.section {
-  background-color: var(--section-bckgd-color);
+.hero h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .section-title {
   color: var(--primary-title-color);
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .section-list .title {
   color: var(--primary-title-color);
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-}
-
-.section-team {
-  background-color: var(--section-bckgd-color);
 }
 
 .section-team .section-title {
@@ -132,7 +122,6 @@ ul {
 }
 
 .team-list .teammate-name {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -140,8 +129,6 @@ ul {
 }
 
 .team-list .teammate-fuction {
-  font-family: "Roboto";
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   color: var(--primary-text-color);
@@ -150,8 +137,6 @@ ul {
 /* PORTFOLIO */
 .image-list .image-list-title {
   color: var(--primary-title-color);
-  font-family: "Roboto";
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -159,25 +144,20 @@ ul {
 
 .image-list .image-list-item {
   color: var(--primary-text-color);
-  font-family: "Roboto";
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
 
-
-
 /* FOOTER */
-.footer-list {
+.footer  {
   background-color: var(--main-bckgd-color);
   color: var(--pure-white-color);
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+  }
+
+.footer .footer-list {
+  font-style: normal;
 }
 
 .footer-list .mail,
@@ -192,5 +172,14 @@ ul {
 
 .footer-list .mail:focus,
 .footer-list .tel:focus {
+  color: var(--accent-blue-color);
+}
+
+.logo-footer {
+  color: var(--pure-white-color);
+}
+
+.logo-footer:hover,
+.logo-footer:focus {
   color: var(--accent-blue-color);
 }
