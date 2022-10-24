@@ -73,16 +73,25 @@ ul {
 
 .main-button:hover,
 .main-button:focus {
-  color: var(--primary-title-color);
-  background-color: var(--pure-white-color);
+   background: #188CE8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   cursor: pointer;
 }
 
-.nav-list, .contacts {
+.nav-list {
   color: var(--primary-title-color);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.contacts {
+color: var(--primary-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
 }
 
 .hero {
